@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A Node.js module that wraps the JIRA REST API",
   "main": "index.js",
-  "author": "Nathan Hega",
+  "author": "Nathan Hega <nhega07@gmail.com>",
   "license": "GNU",
   "dependencies": {
     "request": "~2.27.0",
@@ -11,5 +11,22 @@
     "lodash": "~2.4.1",
     "colors": "~1.0.3",
     "async": "~0.9.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathan-hega/nodejs-jira-wrapper"
+  },
+  "keywords": [
+    "node.js",
+    "jira-wrapper",
+    "jira-api"
+  ],
+  "bugs": {
+    "url": "https://github.com/nathan-hega/nodejs-jira-wrapper/issues"
+  },
+  "homepage": "https://github.com/nathan-hega/nodejs-jira-wrapper"
 }

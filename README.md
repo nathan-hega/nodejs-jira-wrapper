@@ -11,9 +11,11 @@ This module was meant to wrap and simplify the JIRA API. The wrapper currently s
   - [Requesting New Functionality](#featureRequest)
 - [TODO](#todo) 
 
-## Usage <a name="usage"></a>
+<a name="usage"></a>
+## Usage
 > NOTE: Code was developed against version 2 of the JIRA API. Eg:   /rest/api/2/
 
+`npm install nodejs-jira-wrapper`
 
 Users can provide a username and password or a base64 encoded authentication string.
 ### Initialization
@@ -65,9 +67,11 @@ jira.projects.get(null, function (error, body) {
 >}
 >```
 
-## Supported Calls <a name="supportedCalls"></a>
+<a name="supportedCalls"></a>
+## Supported Calls
 
-### Projects <a name="projects"></a>
+<a name="projects"></a>
+### Projects
 #### GET
 `jira.projects.get`
 https://docs.atlassian.com/software/jira/docs/api/REST/latest/#d2e3818
@@ -103,7 +107,8 @@ jira.projects.get(null, function (error, body) {
 }
 ```
 
-### Issues <a name="issues"></a>
+<a name="issues"></a>
+### Issues
 
 #### GET
 `jira.issues.get`
@@ -199,10 +204,13 @@ var options = {
   });    
 ```
 
-## Development <a name="development"></a>
+<a name="development"></a>
+## Development
 The JIRA API has a lot of functionality. While I don't think this module needs to wrap every single API endpoint, I think it is lacking some crucial functionality. See the [TODO](#todo) section for more details.
 
-### Issues <a name="bugs"></a>
+### Issues
+
+<a name="bugs"></a>
 **Bugs**
  When submitting a github issue for a bug, please be sure to provide the following:
 - Explanation of the bug and any context
@@ -210,7 +218,8 @@ The JIRA API has a lot of functionality. While I don't think this module needs t
 - Expected result
 - Actual result
 
-**New Features** <a name="featureRequest"></a>
+<a name="featureRequest"></a>
+**New Features**
 When submitting an issue for a new feature request, please be sure to provide the folllowing:
 - Explanation of the new feature and any context
 - If applicable, link to the JIRA API call (https://docs.atlassian.com/software/jira/docs/api/REST/latest/)
@@ -258,8 +267,8 @@ result: {"error":{"statusCode":401,"message":"Unauthorized"},"body":null}
 »
 ```
 
-
-## TODO <a name="todo"></a> 
+<a name="todo"></a> 
+## TODO
 In order of importance.
 ### Testing
 Only two of the seven wrapper functions have tests written. Adding the rest of the tests is important because it helps enforce all new functionality requiring a test and it provides confidence while developing and reviewing pull requests. 
