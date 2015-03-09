@@ -1,0 +1,5 @@
+OPTIONS
+------------------------------------------------------------------
+--help      || --h    : displays help menu
+--username  || --un   : username used to interact with the JIRA API [required]
+--password  || --pw   : password used to interact with the JIRA PI  [required]

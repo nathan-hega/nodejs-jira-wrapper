@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-jira-wrapper",
+  "version": "0.0.1",
+  "description": "A Node.js module that wraps the JIRA REST API",
+  "main": "index.js",
+  "author": "Nathan Hega",
+  "license": "GNU",
+  "dependencies": {
+    "request": "~2.27.0",
+    "nconf": "~0.6.9",
+    "lodash": "~2.4.1",
+    "colors": "~1.0.3",
+    "async": "~0.9.0"
+  }
+}
